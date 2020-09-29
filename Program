@@ -1,0 +1,13 @@
+#Program to show the fibonnaci series
+#0,1,1,2,3,5,8,13,21,34,55,89,144...
+t1=0
+t2=1
+n=int(input("Enter the no of terms:: "))
+print("Fibonnaci Series is as follows:: ")
+
+for x in range(n):
+    print(str(t1)+" ")
+    nexTerm=t1+t2
+    t1=t2
+    t2=nexTerm
+    
